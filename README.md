@@ -16,7 +16,7 @@ layerVerticalOffset: **array of number equal to n-1 layers** - the vertical offs
 
 
 ## Outputs:
-The program should output a MultiLineString in WKT (https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) containing long (x), lat (y), and depth (z). Eg.
+The program should output a MultiLineString in WKT (https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) containing longitude (x), latitude (y), and depth (z). Eg.
 
     MULTILINESTRING Z((10 10 1, 20 20 3, 10 40 4),(40 40 4, 30 30 1, 40 20 4, 30 10 4))
 
