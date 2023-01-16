@@ -24,5 +24,8 @@ The program should output a MultiLineString in WKT (https://en.wikipedia.org/wik
 ![Top Down Example](pad-generator-example.png)
 In the example above, the blue border is the polygon. The pad consists of 4 layers, spacing of 300 meters.
 
+![Max Length Restricuted](max-length-restricted.png)   
+The example above shows what should happen when max length is restricted.
+
 ![Cross Section example](pad-generator-example2.png)
 If you look at the cross section you should be able to see a wine rack like placement where the  layers are spaced 300m apart.
