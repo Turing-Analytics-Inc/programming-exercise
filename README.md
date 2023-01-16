@@ -11,7 +11,7 @@ maxLength: **number**  - max length of the well in meters
 spacing: **number** - the spacing between the wells.  
 leftLateralOffset: **number** - the left lateral offset between the layers.  
 rightLateralOffset: **number** - the right lateral offset between layers.  
-layerVerticalOffset: **array of number equal to n layers** - the vertical offset between layers.  
+layerVerticalOffset: **array of number equal to n-1 layers** - the vertical offset between layers. For example, if we have a 3 layer pad, an input of [100,200] means that layer 1 -> layer 2 should have a vertical spacing of 100m, layer 2 -> layer 3 will have a vertical spacing of 200m.
 
 
 ## Outputs:
