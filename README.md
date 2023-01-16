@@ -15,17 +15,9 @@ layerVerticalOffset: **array of number equal to n layers** - the vertical offset
 
 
 ##Outputs:
-The program should output a list of linestrings in geojson. Eg.
+The program should output a MultiLineString in WKT (https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) containing long (x), lat (y), and depth (z). Eg.
 
-    [{ "TYPE": "LineString",
-    "coordinates": [
-        [100.0, 0.0, 10.0],
-        [101.0, 1.0, 30.0]
-    ]},{ "TYPE": "LineString",
-    "coordinates": [
-        [100.0, 0.0, 10.0],
-        [101.0, 1.0, 30.0]
-    ]}]
+    MULTILINESTRING Z((10 10 1, 20 20 3, 10 40 4),(40 40 4, 30 30 1, 40 20 4, 30 10 4))
 
 
 ## Examples:
